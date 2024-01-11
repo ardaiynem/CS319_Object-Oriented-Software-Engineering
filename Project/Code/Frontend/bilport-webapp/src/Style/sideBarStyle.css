@@ -1,0 +1,50 @@
+.Sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(56, 8, 83);
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white
+  }
+  
+  .sidebar-header {
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: large;
+    transition: background-color 0.2s ease;
+  }
+  
+  .sidebar-item i {
+    margin-right: 10px; 
+  }
+  
+  .sidebar-item:hover {
+    background-color: rgb(100, 31, 165);
+  }
+  
+  .sidebar-link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar-link:hover{
+    color: rgb(233, 194, 231);
+    text-decoration: none;
+  }
+  
